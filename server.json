@@ -2,13 +2,13 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.irinabuht12-oss/google-meta-ads-ga4-mcp",
   "title": "Google Ads + Meta Ads + SEO/GEO MCP",
-  "description": "Google Ads, Meta Ads, SEO, GEO & GA4 MCP by Ryze AI - audits, reports, keywords, Search Console.",
+  "description": "Google Ads, Meta Ads, Google Analytics (GA4) & Search Console MCP server by Ryze AI",
   "repository": {
     "url": "https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp",
     "source": "github",
     "id": "1202492868"
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "remotes": [
     {
       "type": "streamable-http",

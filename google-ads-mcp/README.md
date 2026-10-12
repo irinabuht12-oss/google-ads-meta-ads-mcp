@@ -1,14 +1,18 @@
 # Google Ads MCP Server
 
-**[Google Ads MCP](https://www.get-ryze.ai/google-ads-mcp)** by [Ryze AI](https://www.get-ryze.ai): a hosted Model Context Protocol server that connects Claude, ChatGPT, Cursor, Claude Code, Grok, Windsurf and n8n to your Google Ads account. Audit campaigns, pull search terms, run GAQL, research keywords, and change budgets, bids and negatives with approval. No developer token, no Google Cloud project, no API key. Sign in with the Google account that owns the ads.
+Skip the setup: use the hosted Ryze MCP (no developer token, no Google Cloud project, approval-gated writes).
+
+**[Connect Ryze in one click →](https://www.get-ryze.ai/developers?utm_source=github&utm_content=google-ads-meta-ads-mcp)**
+
+**[Google Ads MCP](https://www.get-ryze.ai/google-ads-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp)** by [Ryze AI](https://www.get-ryze.ai?utm_source=github&utm_content=google-ads-meta-ads-mcp): a hosted Model Context Protocol server that connects Claude, ChatGPT, Cursor, Claude Code, Grok, Windsurf and n8n to your Google Ads account. Audit campaigns, pull search terms, run GAQL, research keywords, and change budgets, bids and negatives with approval. No developer token, no Google Cloud project, no API key. Sign in with the Google account that owns the ads.
 
 - Endpoint: `https://connector.get-ryze.ai/mcp` (Streamable HTTP, OAuth 2.1 with dynamic client registration and PKCE)
-- Price: free to connect
-- Product page: https://www.get-ryze.ai/google-ads-mcp
-- Setup guide with screenshots: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp
+- Price: included in every Ryze plan; Paid Ads is $89/month with a 7-day free trial
+- Product page: https://www.get-ryze.ai/google-ads-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp
+- Setup guide with screenshots: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp
 - Also in this connector: [Meta Ads MCP](../meta-ads-mcp/README.md), GA4, Google Search Console
 
-## Install the Google Ads MCP
+## Google Ads MCP setup: install in every client
 
 **Claude Code**
 
@@ -73,7 +77,7 @@ Reads run immediately. Writes are proposed in the chat and executed only after y
 | Access | Read and approved write | Read-only | Depends on server |
 | Meta Ads, GA4, Search Console in the same connector | Yes | No | No |
 | Runs on | Ryze hosted | Google hosted | Your machine or server |
-| Cost | Free | Free | Free plus your API quota |
+| Cost | Included in every Ryze plan (7-day free trial) | Free | Free plus your API quota |
 
 ## FAQ
 
@@ -85,13 +89,13 @@ Reads run immediately. Writes are proposed in the chat and executed only after y
 
 **Which clients work?** Anything that supports remote MCP over Streamable HTTP with OAuth: Claude, Claude Desktop, Claude Code, ChatGPT, Cursor, Grok, Windsurf, Cline, Gemini CLI, Codex CLI, n8n.
 
-**Where do I get skills and prompts for it?** [48 free Claude marketing skills](https://github.com/irinabuht12-oss/marketing-skills) and [15 Claude skills for Google Ads](https://www.get-ryze.ai/blog/claude-skills-for-google-ads).
+**Where do I get skills and prompts for it?** [48 free Claude marketing skills](https://github.com/irinabuht12-oss/marketing-skills) and [15 Claude skills for Google Ads](https://www.get-ryze.ai/blog/claude-skills-for-google-ads?utm_source=github&utm_content=google-ads-meta-ads-mcp).
 
 ## Links
 
-- Google Ads MCP page: https://www.get-ryze.ai/google-ads-mcp
+- Google Ads MCP page: https://www.get-ryze.ai/google-ads-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp
 - Connector: https://connector.get-ryze.ai/mcp
-- Setup guide: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp
-- Google Ads and Claude, step by step: https://www.get-ryze.ai/blog/how-to-connect-google-ads-claude-mcp
+- Setup guide: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp
+- Google Ads and Claude, step by step: https://www.get-ryze.ai/blog/how-to-connect-google-ads-claude-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp
 - Official MCP registry entry: `io.github.irinabuht12-oss/google-meta-ads-ga4-mcp`
 - Support: hello@get-ryze.ai

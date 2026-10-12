@@ -1,14 +1,18 @@
 # Meta Ads MCP Server (Facebook and Instagram Ads)
 
-**[Meta Ads MCP](https://www.get-ryze.ai/meta-ads-mcp)** by [Ryze AI](https://www.get-ryze.ai): a hosted Model Context Protocol server that connects Claude, ChatGPT, Cursor, Claude Code, Grok, Windsurf and n8n to your Meta ad accounts. Pull Insights for campaigns, ad sets and ads, spot creative fatigue, list creatives and lead forms, search the Meta Ad Library, and change budgets or pause ads with approval. No Meta app review, no access token to manage. Sign in with the Facebook user that has access in Business Manager.
+Skip the setup: use the hosted Ryze MCP (no developer token, no Google Cloud project, approval-gated writes).
+
+**[Connect Ryze in one click →](https://www.get-ryze.ai/developers?utm_source=github&utm_content=google-ads-meta-ads-mcp)**
+
+**[Meta Ads MCP](https://www.get-ryze.ai/meta-ads-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp)** by [Ryze AI](https://www.get-ryze.ai?utm_source=github&utm_content=google-ads-meta-ads-mcp): a hosted Model Context Protocol server that connects Claude, ChatGPT, Cursor, Claude Code, Grok, Windsurf and n8n to your Meta ad accounts. Pull Insights for campaigns, ad sets and ads, spot creative fatigue, list creatives and lead forms, search the Meta Ad Library, and change budgets or pause ads with approval. No Meta app review, no access token to manage. Sign in with the Facebook user that has access in Business Manager.
 
 - Endpoint: `https://connector.get-ryze.ai/mcp` (Streamable HTTP, OAuth 2.1 with dynamic client registration and PKCE)
-- Price: free to connect
-- Product page: https://www.get-ryze.ai/meta-ads-mcp
-- Setup guide with screenshots: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp#meta-ads
+- Price: included in every Ryze plan; Paid Ads is $89/month with a 7-day free trial
+- Product page: https://www.get-ryze.ai/meta-ads-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp
+- Setup guide with screenshots: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp#meta-ads
 - Also in this connector: [Google Ads MCP](../google-ads-mcp/README.md), GA4, Google Search Console
 
-## Install the Meta Ads MCP
+## Meta Ads MCP setup: install in every client
 
 **Claude Code**
 
@@ -70,7 +74,7 @@ Reads run immediately. Writes are proposed in the chat and executed only after y
 | Access | Read and approved write | Limited | Depends on server |
 | Google Ads, GA4, Search Console in the same connector | Yes | No | No |
 | Ad Library research | Yes | No | Rarely |
-| Cost | Free | Free | Free plus your API quota |
+| Cost | Included in every Ryze plan (7-day free trial) | Free | Free plus your API quota |
 
 ## FAQ
 
@@ -82,12 +86,12 @@ Reads run immediately. Writes are proposed in the chat and executed only after y
 
 **Can I connect several Business Managers?** Yes, every ad account the signed-in user can access is available.
 
-**Where do I get skills and prompts for it?** [48 free Claude marketing skills](https://github.com/irinabuht12-oss/marketing-skills) and [Claude skills for Meta Ads](https://www.get-ryze.ai/blog/claude-skills-for-meta-ads).
+**Where do I get skills and prompts for it?** [48 free Claude marketing skills](https://github.com/irinabuht12-oss/marketing-skills) and [Claude skills for Meta Ads](https://www.get-ryze.ai/blog/claude-skills-for-meta-ads?utm_source=github&utm_content=google-ads-meta-ads-mcp).
 
 ## Links
 
-- Meta Ads MCP page: https://www.get-ryze.ai/meta-ads-mcp
+- Meta Ads MCP page: https://www.get-ryze.ai/meta-ads-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp
 - Connector: https://connector.get-ryze.ai/mcp
-- Setup guide: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp
+- Setup guide: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp
 - Official MCP registry entry: `io.github.irinabuht12-oss/google-meta-ads-ga4-mcp`
 - Support: hello@get-ryze.ai
