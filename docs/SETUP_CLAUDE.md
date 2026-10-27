@@ -95,7 +95,7 @@ gemini extensions list
 
 ### "Tool not found" errors
 
-Make sure you're using the current tool names. Google Ads tools are e.g. `getAccountSummary`, `runRawGaql`, `generateKeywordIdeas`, `listRecommendations`; Meta Ads tools are e.g. `runRawInsights`, `runGraphRead`, `searchAdLibrary`, `listLeads`; GA4 tools are e.g. `runRawReport`, `runRealtimeReport`. Full reference: https://www.get-ryze.ai/google-ads-mcp and https://www.get-ryze.ai/meta-ads-mcp.
+Make sure you're using the current tool names. Google Ads tools are e.g. `getAccountSummary`, `runRawGaql`, `generateKeywordIdeas`, `listRecommendations`; Meta Ads tools are e.g. `runRawInsights`, `runGraphRead`, `searchAdLibrary`, `listLeads`; GA4 tools are e.g. `runRawReport`, `runRealtimeReport`. Full reference: https://www.get-ryze.ai/google-ads-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp and https://www.get-ryze.ai/meta-ads-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp.
 
 ---
 

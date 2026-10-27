@@ -19,7 +19,7 @@ Skip the setup: use the hosted Ryze MCP (no developer token, no Google Cloud pro
 ## Product pages
 
 - **[Google Ads MCP](google-ads-mcp/README.md)**: tools, prompts, install per client, comparison ([product page](https://www.get-ryze.ai/google-ads-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp))
-- **[Google Analytics MCP server](google-analytics-mcp/README.md)**: GA4 reports, realtime, AI-referral traffic from ChatGPT, Claude, Gemini and Perplexity ([product page](https://www.get-ryze.ai/google-analytics-mcp))
+- **[Google Analytics MCP server](google-analytics-mcp/README.md)**: GA4 reports, realtime, AI-referral traffic from ChatGPT, Claude, Gemini and Perplexity ([product page](https://www.get-ryze.ai/google-analytics-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp))
 - **[Meta Ads MCP](meta-ads-mcp/README.md)**: Facebook and Instagram Ads tools, prompts, install per client ([product page](https://www.get-ryze.ai/meta-ads-mcp?utm_source=github&utm_content=google-ads-meta-ads-mcp))
 - Agent-readable index: [llms.txt](llms.txt)
 
